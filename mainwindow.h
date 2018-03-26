@@ -19,6 +19,8 @@ private slots:
 
     void on_lineEdit_editingFinished();
 
+    bool eventFilter(QObject* watched,QEvent *event);
+
 private:
     Ui::MainWindow *ui;
 };
